@@ -1,0 +1,381 @@
+*{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+body{
+    text-align: justify;
+    
+    
+}
+body p{
+    text-align: justify;
+    line-height: 1.6;
+    
+    
+}
+
+
+
+.logoymenu .container .repair4k .planz .tipvid .formgen .form div{
+    
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    min-width: 250px;
+}
+
+
+h1 h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+        
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700; 
+}
+
+
+.orcab{
+    display: flex;
+}
+
+.orcab a img{
+    display: grid;
+    width: 250px;
+}
+
+#ifondo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+    }
+
+
+
+.logoymenu ul li{
+   display: inline-block;
+   font-size: large;
+   font-weight: 600;
+   
+   
+}
+
+.logoymenu ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 40px;
+
+
+}
+
+.logoymenu ul li a:hover{
+    background-color: rgb(247, 236, 211);
+    border-radius: 5px;
+    
+}
+
+
+
+.btn{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 215, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-gold{
+    background-color: black;
+    color: gold;
+
+}
+
+.btn-gold:hover{
+    background-color: rgb(34, 33, 33);
+    color: goldenrod;
+}
+
+.btn-gold:active{
+    background-color: rgb(68, 64, 64);
+
+}
+
+
+
+.conte{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#imgultra{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.diamond{
+    
+    margin: 5px;
+    color: goldenrod;
+    
+}
+.ultra{
+    display: grid;
+    grid-template-columns: 75px auto;
+    grid-auto-rows: max-content;
+    margin-top: 40px;
+    
+}
+
+.flex1 {
+    display: block;
+    
+    
+}
+
+.botq{
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+  
+}
+
+.repair{
+    margin-top: 40px;
+}
+
+.repair4k{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+
+.masajes img{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    
+}
+
+
+.planz{
+    margin-top: 40px;
+    background-color: rgba(233, 176, 34, 0.11);
+    border-radius: 5px;
+    
+}
+
+.planz:hover{
+    background-color: rgba(209, 162, 43, 0.212);
+}
+.tantes{
+    text-decoration: line-through;
+}
+
+.tahora{
+    font-size: xx-large;
+}
+
+.tenvio{
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.tipvid{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+            
+}
+
+.tipvid i{
+    text-align: center;
+    color: goldenrod;
+
+        
+}
+
+
+
+
+.formgen{
+    display: flex;
+    background-color: rgba(233, 176, 34, 0.11);
+    
+        
+}
+
+
+
+.formtext{
+    display: grid;
+    margin-right: 5px;
+    width: 100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    row-gap: 2px;
+    
+    
+    
+}
+.ftext2{
+    display: grid;
+    grid-template-columns: 75px auto;
+    grid-template-rows: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+}
+.ftext2 p{
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.form{
+    display: grid;
+    gap: 2.5em;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    box-shadow: 7px 13px 37px #000;
+    
+    
+    
+    
+    
+}
+
+.form .controls{
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+.form .botons{
+    border-radius: 4px;
+    font-size: medium   ;
+    font-weight: 500;
+    margin-left: 30px;
+    text-align: center;
+    width: 100px;
+    padding: 4px;
+    
+    
+    
+
+
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+.redes{
+    padding: 10px;
+   
+}
+
+.redes a{
+    color: goldenrod;
+    
+}
+
+.container-contac{
+    background-image: url(/IMAGENES/TENZI-muro-6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 30px;
+    font-size: large;
+    font-weight: 600;
+    
+}
+
+.container-contac form{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: max-content;
+    text-align: center;
+           
+        
+}
+
+.warnings{
+width: 200px;
+text-align: center;
+margin: auto;
+color: red;
+padding-top: 20px;
+
+}
+
+
+
+
+
+
+
+    
+    
+ 
+ 
