@@ -29,7 +29,8 @@ body p{
     grid-auto-flow: dense;
     grid-auto-rows: 22rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
-    min-width: 250px;
+    margin: 0 auto;
+    
 }
 
 
@@ -369,6 +370,66 @@ padding-top: 20px;
 
 }
 
+@media screen and (max-width: 780px) {
+
+    .logoymenu .orcab img{
+        width: 150px;
+
+    }
+    .logoymenu .orcab nav{
+        display: grid;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .logoymenu .orcab .botcab{
+        display: none;
+
+    }
+
+    .logoymenu{
+        display: grid;
+    }
+
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .repair4k{
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+    .formgen{
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+   
+}
+@media screen and (max-width: 400px){
+    .orcab img{
+        display: 100px;
+
+    }
+
+    .orcab{
+        display: grid;
+
+    }
+
+    .botq{
+        display: none;
+    }
+    
+    
+   
+
+
+}
 
 
 
